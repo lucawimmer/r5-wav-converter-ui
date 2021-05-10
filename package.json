@@ -1,8 +1,8 @@
 {
   "name": "r5-wav-converter-ui",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Wimmer, Luca <Wimmer@cpls.de>",
-  "description": "r5-wav-converter-ui",
+  "description": "A little utility providing simple audio converting to PCMA/8000 WAV files which can be used in telephony applications.",
   "license": "GPLv3",
   "main": "./dist/electron/main.js",
   "scripts": {
