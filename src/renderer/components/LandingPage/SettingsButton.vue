@@ -18,7 +18,7 @@
                 <br />
                 <span class="md-subheading">Third-Party Licences</span>
                 <md-content class="md-scrollbar licences">
-                  This software uses (prebuild) code of <a href=http://ffmpeg.org target="_blank">FFmpeg</a> licensed under the <a href=hhttps://www.gnu.org/licenses/gpl-3.0.de.html target="_blank">GPLv3</a> and its source can be downloaded <a href=https://github.com/ShareX/FFmpeg/releases/tag/v4.3.1 target="_blank">here</a>.<br />
+                  This software uses (prebuild) code of <a href=http://ffmpeg.org target="_blank">FFmpeg</a> licensed under the <a href=https://www.gnu.org/licenses/gpl-3.0.de.html target="_blank">GPLv3</a> and its source can be downloaded <a href=https://github.com/lucawimmer/r5-wav-converter-ui/releases/tag/1.0.0 target="_blank">here</a>.<br />
                   {{ thirdpartylicences }}
                 </md-content>
                 </md-tab>
