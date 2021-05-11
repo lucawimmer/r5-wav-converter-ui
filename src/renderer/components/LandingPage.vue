@@ -21,7 +21,6 @@ $material-icons-font-path: '~material-icons/iconfont/';
 @import '~material-icons/iconfont/material-icons.scss';
 </style>
 <script>
-  import SystemInformation from './LandingPage/SystemInformation'
   import FilePond from './LandingPage/FilePond'
   import SettingsButton from './LandingPage/SettingsButton'
   export default {
@@ -31,7 +30,7 @@ $material-icons-font-path: '~material-icons/iconfont/';
         filepondDisabledState: false
       }
     },
-    components: { SystemInformation, FilePond, SettingsButton },
+    components: { FilePond, SettingsButton },
     methods: {
       settingsInvalidReceived (e) {
         if (!!e === e) {
