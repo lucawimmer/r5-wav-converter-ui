@@ -68,7 +68,7 @@ export default {
                 outputPath = settings.value('outputPath', null) + '\\' + filename
               }
 
-              const ffmpegPath = require('ffmpeg-static')
+              const ffmpegPath = require('ffmpeg-static').replace('app.asar', 'app.asar.unpacked')
               var Ffmpeg = require('fluent-ffmpeg')
               Ffmpeg.setFfmpegPath(ffmpegPath)
 
