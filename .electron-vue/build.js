@@ -105,6 +105,7 @@ function pack (config) {
           err += `    ${line}\n`
         })
 
+        console.error(errorLog + ' ' + err)
         reject(err)
       } else {
         resolve(stats.toString({
